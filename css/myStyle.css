@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* nav start */
+
+header {
+    background-image:  radial-gradient(rgba(255, 255, 255, 0.062) 0% 40%, 50%,  rgba(50, 177, 209, 0.39) , 90% , rgba(50, 177, 209, 0.39)), url(../images/logo.jpg);    
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh
+}
+
+/* mission start*/
+.mission {
+    /* -top: 50px; */
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 177, 209, 0.39) , rgba(0,0,0,0));
+}
+
+.mission p {
+    font-size: calc(0.6vw + 12px);
+    font-weight: 400;
+}
+
+.mission-item {
+    padding: 5vw;
+}
+
+.mission-item img {
+    width: 70%;
+    height: 60%;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgb(160, 203, 214);
+}
+.mission-item p {
+    padding: 40px;
+}
+
+
+/* application-link  */
+.application-link {
+    margin-top: 100px;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.application-link p {
+    font-size: calc(1vw + 12px);
+    font-weight: 400;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(50, 177, 209);
+    border-radius: 5px;
+    padding: 5px 20px 10px;
+    text-decoration: none;
+    margin: 3vw auto;
+    box-shadow: -1px -1px 4px inset rgb(79, 78, 78);
+    color: rgb(18, 69, 100);
+}
+
+.button:hover {
+    box-shadow: 2px 1px 4px inset rgb(79, 78, 78), -0.5px -0.5px 1px inset rgb(79, 78, 78);
+    color: inherit;
+}
+
+/* footer start */
+footer {
+    background-image: linear-gradient( white , 80%, rgba(50, 177, 209));
+    padding: 2vw;
+    height: calc(10vw + 40px);
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer a {
+    color: rgb(13, 98, 119);
+    font-size: calc(1.5vw + 10px);
+    text-shadow: 2px 2px 5px white; 
+}
+
+.copy-right {
+    text-align: center;
+    text-shadow: 1px 1px 5px white;
+}
+
